@@ -1,0 +1,49 @@
+
+header{
+  background-color: lightcyan;
+  padding: 20px;
+  
+}
+nav{
+  background-color: lightblue;
+  padding:10px;
+  color: red;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display: inline-block;
+  margin-right:20px;
+}
+h2 {
+  color: red;
+  margin:0;
+}
+button{
+  color: red;
+  background-color:lightcyan;
+  border:none;
+  background-position: center;
+  border-radius: 2px;
+  padding-top:10px;
+ padding-bottom:10px;
+ padding-left:16px;
+ padding-right:16px;
+ cursor: pointer;
+ transition:opacity 0.15;
+ margin-left: 50px;
+}
+button: hover{
+  opacity:0.9;
+}
+button: active{
+  opacity: 0.5;
+}
+footer{
+  background-color: lightblue;
+  text-align: center;
+  color:red;
+}
